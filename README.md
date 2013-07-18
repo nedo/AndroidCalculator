@@ -1,3 +1,3 @@
 AndroidCalculator
 =================
-A Sample Android application to for testing, it just take two values and multiply them. 
+A Sample Android application for testing, it just takes two values and multiply them. 
