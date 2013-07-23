@@ -7,4 +7,5 @@
     <string name="txtFirstNumber">Enter First Number</string>
     <string name="txtSecondNumber">Enter Second Number</string>
     <string name="txtSpace"></string>
+    <string name="action_settings">something here</string>
 </resources>
