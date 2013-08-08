@@ -57,16 +57,16 @@ public class Main extends Activity {
 
     	public void onClick(View v) {
     		//Getting first & second values and passing to show result
-    		showResult(vFirstValue.getText(), vSecondValue.getText());
+    		showResult(vFirstValue.getText().toString(), vSecondValue.getText().toString());
     	}
    	});
  }
 
  //Showing multiply results
- protected void showResult(Editable vFirst, Editable vSecond) 
+ public void showResult(String vFirst, String vSecond) 
  {
-	 vNum1 = Float.parseFloat(vFirst.toString());
-	 vNum2 = Float.parseFloat(vSecond.toString());
+	 vNum1 = Float.parseFloat(vFirst);
+	 vNum2 = Float.parseFloat(vSecond);
 	 vOutPut = vNum1 * vNum2;
 	 vResult.setText(String.valueOf(vOutPut));
  }
